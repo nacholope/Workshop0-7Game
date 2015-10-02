@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>workshop01</title>
+</head>
+<body>
+    <h1>Juego del 7</h1>
+
+
+    <script type="text/javascript">
+        var array = [];
+        var form = '<form><input type="number" value="test"/><button onclick="startGame()">Start</button></form>';
+        if(confirm("Quieres usar el prompt") == true){
+            var numero = prompt("Introduce un numero para buscar del 0 a ese numero multiplos de 7 y numeros que terminen en 7");
+        }else{
+            document.app(form);
+        }
+        function startGame(){
+            for(var i=0;i<numero;i++){
+                if(isValid(i))
+                    addColection(i);
+            }
+            console.log(array);
+        }
+        function isValid(n){
+            if(n%7 === 0 || n%10 ===7)
+                return true;
+            return false;
+        }
+        function addColection(n) {
+            array.push(n);
+        }
+
+
+    </script>
+
+</body>
+</html>
