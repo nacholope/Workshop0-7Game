@@ -2,4 +2,4 @@
 
 ##Introducion
 
-- Juego del 7
+- Juego del 7git 
