@@ -1,2 +1,5 @@
 # Workshop0-7Game
-First repository.
+
+##Introducion
+
+- Juego del 7
